@@ -1,0 +1,1342 @@
+{
+  "name": "AI Birthday Multi page Final",
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1vBpIwsiIsV75-nkOq0a6yEJDcbt4eXBel6dpTJP8Lig",
+          "mode": "list",
+          "cachedResultName": "Bday Ai",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1vBpIwsiIsV75-nkOq0a6yEJDcbt4eXBel6dpTJP8Lig/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 569167973,
+          "mode": "list",
+          "cachedResultName": "Sheet2",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1vBpIwsiIsV75-nkOq0a6yEJDcbt4eXBel6dpTJP8Lig/edit#gid=569167973"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "mode",
+              "displayName": "mode",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "recipient_name",
+              "displayName": "recipient_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "recipient_email",
+              "displayName": "recipient_email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "recipient_whatsapp",
+              "displayName": "recipient_whatsapp",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "dob_raw",
+              "displayName": "dob_raw",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "dob_iso",
+              "displayName": "dob_iso",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "dob_next",
+              "displayName": "dob_next",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "budget_min",
+              "displayName": "budget_min",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "budget_max",
+              "displayName": "budget_max",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "interests",
+              "displayName": "interests",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "gift_types",
+              "displayName": "gift_types",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "brands",
+              "displayName": "brands",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "colors",
+              "displayName": "colors",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "avoid",
+              "displayName": "avoid",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "interests_csv",
+              "displayName": "interests_csv",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "gift_types_csv",
+              "displayName": "gift_types_csv",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "brands_csv",
+              "displayName": "brands_csv",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "colors_csv",
+              "displayName": "colors_csv",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "profile_json",
+              "displayName": "profile_json",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        784,
+        576
+      ],
+      "id": "dc1aa469-cd87-44fe-b443-569555706fff",
+      "name": "Append row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "0mBt0aphcJeXhoYH",
+          "name": "Google Sheets ACE"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Handle all items in runOnceForAllItems mode\nconst results = [];\nfor (const item of $input.all()) {\n  const raw = item.json.dob || \"\";\n  let year, month, day;\n  if (raw.match(/^\\d{4}-\\d{2}-\\d{2}$/)) {\n    // \"YYYY-MM-DD\"\n    [year, month, day] = raw.split(\"-\").map(Number);\n  } else if (raw.match(/^\\d{1,2}\\/\\d{1,2}\\/\\d{4}$/)) {\n    // \"MM/DD/YYYY\"\n    [month, day, year] = raw.split(\"/\").map(Number);\n  } else {\n    results.push({\n      json: {\n        ...item.json,\n        error: \"DOB missing/invalid\"\n      }\n    });\n    continue;\n  }\n  const now = new Date();\n  let thisYear = now.getFullYear();\n  let next = new Date(thisYear, month-1, day, 8, 0, 0, 0);\n  if (next < now) next = new Date(thisYear+1, month-1, day, 8, 0, 0, 0);\n  const birthday8am = next.toISOString();\n  const twoWeeksBefore = new Date(next.getTime() - 14*24*60*60*1000).toISOString();\n\n  results.push({\n    json: {\n      ...item.json,\n      birthday8am,\n      twoWeeksBefore,\n    }\n  });\n}\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        784,
+        768
+      ],
+      "id": "f2067b39-1462-43bd-a48b-85c1608c403c",
+      "name": "Compute Times"
+    },
+    {
+      "parameters": {
+        "resume": "specificTime",
+        "dateTime": "={{$now.plus(1, 'minute')}}\n"
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1168,
+        688
+      ],
+      "id": "ea39e4be-9dd7-491e-9c28-e63f2c4b9aa1",
+      "name": "Wait 2 weeks before",
+      "webhookId": "82ce7dfd-9f26-402c-bec5-6ad224f86255"
+    },
+    {
+      "parameters": {
+        "resume": "specificTime",
+        "dateTime": "={{$now.plus(1,'minute')}}\n"
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        992,
+        896
+      ],
+      "id": "60ec21fc-b6d3-4672-952f-2c5ad45dc5e2",
+      "name": "Wait birthday 8 am",
+      "webhookId": "bb8123fd-3b81-4443-aa0e-48506348bf1f"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=Generate exactly 5 personalized gift ideas. Each idea must be for a product from a **distinct category or type**, ensuring a wide variety of suggestions (e.g., if one is a board game, another should not be a card game, but perhaps a book, an experience, or a piece of tech). Use the person’s hobbies/interests and activities to make each suggestion highly relevant.\n\nPerson:\n- Name: {{ $json[\"Full Name\"] }}\n- Hobbies/Interests: {{ $json[\"What are your hobbies or interests?\"] }}\n- Favorite Activities: {{ $json['What are your favorite things or activities?'] }}\n- Gender: {{ $json[\"Gender\"] }}\n- Budget: {{ $('Parse budget').first().json.budget_label }}\n\nReturn ONLY valid JSON in this EXACT format:\n\n{\n  \"ideas\": [\n    {\n      \"category\": \"Unique Category 1 (e.g., Related to hobbies/ interests from the form) \",\n      \"name\": \"Gift Idea Name\",\n      \"description\": \"One sentence about the product.\",\n      \"reason\": \"2–3 complete sentences that reference the person’s stated hobbies/activities and explain why the match is good.\",\n      \"query\": \"shopping keywords that match the category and item\"\n    }\n  ]\n}\n\nHard rules:\n- Provide exactly 5 ideas.\n- Each of the 5 ideas MUST have a different \"category\" value. Focus on broad distinctions (e.g., \"Book\" is different from \"Board Game\").\n- The \"reason\" MUST be 2–3 sentences and **explicitly reference** the hobbies/activities you were given.\n- \"query\" must be a realistic shopping search term for Google Shopping."
+            },
+            {
+              "content": "\"You are a helpful assistant that suggests gift ideas in a structured JSON format. Provide 5 distinct gift ideas.\"",
+              "role": "system"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {
+          "maxTokens": 1000,
+          "temperature": 0.8
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1328,
+        688
+      ],
+      "id": "c186b4d5-4a88-4b2c-8c5e-ce39ceb0c982",
+      "name": "Message a model",
+      "credentials": {
+        "openAiApi": {
+          "id": "la3vV9y514S7Hp73",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get recipient data from \"Wait 2 weeks before\" node\nconst waitData = (() => { \n  try { \n    return $('Wait 2 weeks before').first()?.json || {}; \n  } catch { \n    return {}; \n  } \n})();\n\n// Get all gift items that were picked\nconst gifts = items.map(i => i.json);\n\n// Budget label\nconst budget = (gifts[0]?.budget_min != null && gifts[0]?.budget_max != null)\n  ? `$${gifts[0].budget_min} - $${gifts[0].budget_max}`\n  : 'any budget';\n\n// Build HTML email with all gifts\nlet html = `\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<style>\nbody { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; margin: 0; padding: 20px; }\n.container { max-width: 700px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }\nh2 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-bottom: 20px; }\n.budget-info { background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px; margin-bottom: 25px; border-radius: 4px; }\n.gift-item { border: 1px solid #e0e0e0; padding: 20px; margin-bottom: 20px; border-radius: 8px; background: #fafafa; display: flex; gap: 20px; }\n.gift-item img { width: 150px; height: 150px; object-fit: contain; border: 1px solid #ddd; border-radius: 6px; padding: 5px; background: white; }\n.gift-details { flex: 1; }\n.gift-details h3 { margin: 0 0 10px 0; color: #2980b9; font-size: 18px; }\n.category { display: inline-block; background: #e8f4f8; color: #2980b9; padding: 4px 12px; border-radius: 12px; font-size: 12px; margin-bottom: 8px; }\n.reason-box { background: #e8f4f8; border-left: 4px solid #3498db; padding: 12px; margin: 12px 0; border-radius: 4px; font-style: italic; line-height: 1.5; }\n.price { font-weight: bold; color: #27ae60; font-size: 1.2em; margin: 10px 0; }\n.product-link { display: inline-block; padding: 10px 20px; background: #3498db; color: white !important; text-decoration: none; border-radius: 6px; margin-top: 12px; }\n.product-link:hover { background: #2980b9; }\n.footer { margin-top: 30px; text-align: center; color: #7f8c8d; font-size: 0.9em; padding-top: 20px; border-top: 1px solid #ddd; }\n</style>\n</head>\n<body>\n  <div class=\"container\">\n    <h2>🎁 Hi ${waitData.recipient_name || 'there'}! Here are ${gifts.length} gift ideas for you!</h2>\n    <div class=\"budget-info\"><strong>Budget Range:</strong> ${budget}</div>\n`;\n\ngifts.forEach((gift, i) => {\n  const linkOk = gift.link && /^https?:\\/\\//i.test(gift.link);\n  const img = gift.imageUrl || 'https://via.placeholder.com/150?text=No+Image';\n\n  html += `\n    <div class=\"gift-item\">\n      <img src=\"${img}\" alt=\"${gift.product_name || gift.gift_name}\" onerror=\"this.src='https://via.placeholder.com/150?text=No+Image'\">\n      <div class=\"gift-details\">\n        <span class=\"category\">${gift.gift_category || 'Gift Idea'}</span>\n        <h3>${i + 1}. ${gift.gift_name}</h3>\n        <p><strong>Product:</strong> ${gift.product_name || gift.gift_name}</p>\n\n        ${gift.gift_description ? `<p style=\"margin:6px 0 8px 0;\">${gift.gift_description}</p>` : ''}\n\n        <div class=\"reason-box\">\n          <strong>Why this gift?</strong><br>\n          ${gift.gift_reason || 'A thoughtful gift idea.'}\n        </div>\n\n        <div class=\"price\">${gift.price || ''}</div>\n        <p style=\"font-size: 0.85em; color: #7f8c8d;\">Available at: ${gift.source || 'Online'}</p>\n        ${linkOk\n          ? `<a class=\"product-link\" href=\"${gift.link}\" target=\"_blank\" rel=\"noopener noreferrer\">View Product →</a>`\n          : `<p style=\"color:#e74c3c;font-style:italic;\">Product link unavailable</p>`}\n      </div>\n    </div>\n  `;\n});\n\nhtml += `\n    <p style=\"text-align:center;margin-top:20px;font-size:1.05em;\">Have fun choosing! 🎉</p>\n    <div class=\"footer\">This email was sent automatically with n8n.</div>\n  </div>\n</body>\n</html>\n`;\n\n// ✅ Return with all recipient data included\nreturn [{\n  json: {\n    emailHtml: html,\n    recipient_name: waitData.recipient_name || 'there',\n    recipient_email: waitData.recipient_email || '', // ✅ This is the key field\n    recipient_whatsapp: waitData.recipient_whatsapp || ''\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2672,
+        736
+      ],
+      "id": "04df98ef-64be-4f03-bbeb-83b87a482742",
+      "name": "Collect products"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get all input data\nconst input = $json;\n\n// Extract budget values\nconst budget_min = Number(input.budget_min) || 0;\nconst budget_max = Number(input.budget_max) || 0;\n\n// Create budget label\nlet budget_label = '';\nif (budget_max <= 20) {\n  budget_label = 'Under $20';\n} else if (budget_max <= 50) {\n  budget_label = '$20-$50';\n} else if (budget_max <= 100) {\n  budget_label = '$50-$100';\n} else {\n  budget_label = 'Over $100';\n}\n\nconsole.log(`Parsed budget: $${budget_min} - $${budget_max}`);\n\n// ✅ Return ALL input data PLUS the parsed budget fields\nreturn [{\n  json: {\n    ...input,  // ✅ This preserves ALL the recipient data!\n    budget_min: budget_min,\n    budget_max: budget_max,\n    budget_label: budget_label\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        992,
+        672
+      ],
+      "id": "2583d8f5-c1c1-4662-91eb-61e72b988e29",
+      "name": "Parse budget"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get AI response\nconst aiResponse = $('Message a model').first().json;\n\n// Try to get recipient data from multiple sources\nlet recipientData = {\n  recipient_name: '',\n  recipient_email: '',\n  recipient_whatsapp: '',\n  dob_iso: '',\n  dob_next: '',\n  budget_min: 20,\n  budget_max: 50,\n  budget_label: 'Under $20'\n};\n\n// Source 1: Try from \"Message a model\" input\ntry {\n  const msgInput = $input.first().json || {};\n  console.log(\"Message a model received:\", JSON.stringify(msgInput));\n  if (msgInput.recipient_email) {\n    recipientData = { ...recipientData, ...msgInput };\n    console.log(\"✅ Got recipient data from Message input\");\n  }\n} catch (e) {\n  console.log(\"Could not access Message input:\", e.message);\n}\n\n// Source 2: If still empty, try \"Wait 2 weeks before\"\nif (!recipientData.recipient_email) {\n  try {\n    const waitOutput = $('Wait 2 weeks before').first().json || {};\n    if (waitOutput.recipient_email) {\n      recipientData = { ...recipientData, ...waitOutput };\n      console.log(\"✅ Got recipient data from Wait node\");\n    }\n  } catch (e) {\n    console.log(\"Could not access Wait node:\", e.message);\n  }\n}\n\n// Source 3: If still empty, try \"Parse budget\"\nif (!recipientData.recipient_email) {\n  try {\n    const budgetOutput = $('Parse budget').first().json || {};\n    if (budgetOutput.recipient_email) {\n      recipientData = { ...recipientData, ...budgetOutput };\n      console.log(\"✅ Got recipient data from Parse budget\");\n    }\n  } catch (e) {\n    console.log(\"Could not access Parse budget:\", e.message);\n  }\n}\n\nconsole.log(\"Final recipient data:\", {\n  name: recipientData.recipient_name || 'MISSING',\n  email: recipientData.recipient_email || 'MISSING',\n  budget: `${recipientData.budget_min}-${recipientData.budget_max}`\n});\n\n// Extract ideas array from AI response\nlet ideas = [];\nif (aiResponse?.message?.content?.ideas) {\n  ideas = aiResponse.message.content.ideas;\n} else if (aiResponse?.content?.ideas) {\n  ideas = aiResponse.content.ideas;\n} else if (typeof aiResponse?.message?.content === 'string') {\n  try {\n    const parsed = JSON.parse(aiResponse.message.content);\n    ideas = parsed.ideas || [];\n  } catch (e) {\n    console.log(\"Failed to parse AI response\");\n  }\n}\n\nconsole.log(`Found ${ideas.length} gift ideas from AI`);\n\nif (!ideas || ideas.length === 0) {\n  throw new Error(\"AI did not return any gift ideas\");\n}\n\n// Return each idea as a separate item with ALL recipient data\nreturn ideas.map((idea, index) => {\n  console.log(`\\nIdea ${index + 1}: ${idea.name}`);\n  \n  return {\n    json: {\n      // ✅ ALL recipient data\n      recipient_name: recipientData.recipient_name || 'there',\n      recipient_email: recipientData.recipient_email || '',\n      recipient_whatsapp: recipientData.recipient_whatsapp || '',\n      dob_iso: recipientData.dob_iso || '',\n      dob_next: recipientData.dob_next || '',\n      mode: recipientData.mode || 'easy',\n      interests: recipientData.interests || [],\n      \n      // Idea data\n      idea_index: index + 1,\n      category: idea.category || '',\n      name: idea.name || '',\n      description: idea.description || idea.desc || '',\n      reason: idea.reason || 'A thoughtful gift idea',\n      query: idea.query || idea.name || '',\n      \n      // Budget data\n      budget_min: recipientData.budget_min || 20,\n      budget_max: recipientData.budget_max || 50,\n      budget_label: recipientData.budget_label || `$${recipientData.budget_min || 20} - $${recipientData.budget_max || 50}`\n    }\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1632,
+        736
+      ],
+      "id": "5953aadc-e949-4fc6-a5a1-14084a157f6b",
+      "name": "Split ideas into items"
+    },
+    {
+      "parameters": {
+        "url": "https://serpapi.com/search.json",
+        "sendQuery": true,
+        "specifyQuery": "json",
+        "jsonQuery": "={\n  \"engine\": \"google_shopping\",\n  \"q\": \"={{ $json.query }}\",\n  \"num\": \"10\",\n  \"gl\": \"us\",\n  \"hl\": \"en\",\n  \"api_key\": \"YOUR_SERPAPI_KEY\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1856,
+        608
+      ],
+      "id": "c8142e12-f928-4250-af2a-a28f6678b986",
+      "name": "HTTP Request1"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Read the single merged item only (no $items() cross-reads)\nconst item            = $json;\nconst results         = item.shopping_results || [];\n\n// Idea fields (kept all the way to email)\nconst giftName        = item.idea_name || 'Gift Idea';\nconst giftDescription = item.idea_description || '';\nconst giftReason      = item.idea_reason || '';\nconst giftCategory    = item.idea_category || '';\n\n// Budget (robust defaults)\nconst budget_min = Number.isFinite(+item.budget_min) ? +item.budget_min : 20;\nconst budget_max = Number.isFinite(+item.budget_max) ? +item.budget_max : 50;\n\n// --- helpers ---\nfunction priceOf(r) {\n  if (r && r.extracted_price != null && !isNaN(r.extracted_price)) return Number(r.extracted_price);\n  if (r && r.price) {\n    const m = String(r.price).replace(/,/g, '').match(/(\\d+(\\.\\d+)?)/);\n    return m ? Number(m[1]) : null;\n  }\n  return null;\n}\n\n// Filter candidates by budget\nconst inBudget = results.filter(r => {\n  const p = priceOf(r);\n  return p != null && p >= budget_min && p <= budget_max;\n});\n\n// Pick product: prefer a budget match; otherwise cheapest with a price\nlet product = null;\nif (inBudget.length) {\n  product = inBudget[0];\n} else {\n  const priced = results.filter(r => priceOf(r) != null);\n  if (priced.length) {\n    priced.sort((a, b) => priceOf(a) - priceOf(b));\n    product = priced[0];\n  }\n}\n\n// If nothing usable, return a graceful placeholder (keeps the slot in the email)\nif (!product) {\n  return {\n    json: {\n      gift_name:        giftName,\n      gift_category:    giftCategory,\n      gift_reason:      giftReason,\n      gift_description: giftDescription,\n      product_name:     giftName,\n      price:            'Price not available',\n      imageUrl:         'https://via.placeholder.com/150?text=No+Result',\n      link:             '',\n      source:           'Online',\n      budget_min,\n      budget_max\n    }\n  };\n}\n\n// Build output for a real product\nconst p          = priceOf(product);\nconst priceText  = (p != null) ? `$${p.toFixed(2)}` : 'Price not available';\nconst link       = product.product_link || product.link || product.url || product.serpapi_link || '';\nconst image      = product.thumbnail || 'https://via.placeholder.com/150';\nconst chosenName = product.title || giftName;\n\nreturn {\n  json: {\n    gift_name:        giftName,\n    gift_category:    giftCategory,\n    gift_reason:      giftReason,\n    gift_description: giftDescription,   // <- will render in the email\n    product_name:     chosenName,\n    price:            priceText,\n    imageUrl:         image,\n    link,\n    source:           product.source || 'Online',\n    budget_min,\n    budget_max\n  }\n};\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2464,
+        736
+      ],
+      "id": "33f929ad-3e5a-49d9-ab5b-214111834eeb",
+      "name": "pick best products"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Safely fetch the matching idea from \"Split ideas into items\".\n// When this node is executed alone, $items() may throw or return an Error object.\n// We swallow that and fall back to any idea_* fields already on $json.\n\nfunction safeGetIdea() {\n  try {\n    const prev = $items('Split ideas into items', 0, $itemIndex);\n    // If prev is a real item with json, use it\n    if (prev && prev.json && typeof prev.json === 'object') return prev.json;\n  } catch (e) {\n    // ignore; we'll fall back below\n  }\n  // Fallback: if upstream already carried idea_* fields on $json, convert them back\n  const j = $json || {};\n  if (j.idea_name || j.idea_description || j.idea_reason || j.idea_category || j.idea_query) {\n    return {\n      name: j.idea_name,\n      description: j.idea_description,\n      reason: j.idea_reason,\n      category: j.idea_category,\n      query: j.idea_query,\n      budget_min: j.budget_min,\n      budget_max: j.budget_max,\n    };\n  }\n  return {};\n}\n\nconst idea = safeGetIdea();\nconst http = $json; // HTTP Request output for this item\n\nreturn {\n  json: {\n    // keep all HTTP fields (shopping_results, search_metadata, etc.)\n    ...http,\n\n    // stable AI idea fields\n    idea_name:        idea.name || '',\n    idea_description: idea.description || idea.desc || '',\n    idea_reason:      idea.reason || '',\n    idea_category:    idea.category || '',\n    idea_query:       idea.query || '',\n\n    // budget with sane defaults\n    budget_min:       (idea.budget_min ?? 20),\n    budget_max:       (idea.budget_max ?? 50),\n  }\n};\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2272,
+        736
+      ],
+      "id": "697f0558-4c6e-4e67-9c81-7dd003e6f223",
+      "name": "Merge with idea data"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Get the normalized data from \"Wait 2 weeks before\" node\n// This contains all recipient information\nconst waitData = (() => { \n  try { \n    return $('Wait 2 weeks before').first()?.json || {}; \n  } catch { \n    return {}; \n  } \n})();\n\n// Current idea from this iteration\nconst i = $json;\n\n// Combine everything: recipient info + idea details + budget\nreturn {\n  json: {\n    // ✅ Recipient information (from Wait node)\n    recipient_name: waitData.recipient_name || '',\n    recipient_email: waitData.recipient_email || '',\n    recipient_whatsapp: waitData.recipient_whatsapp || '',\n    dob_iso: waitData.dob_iso || '',\n    dob_next: waitData.dob_next || '',\n    \n    // ✅ Idea details (from current item)\n    idea_name: i.name || '',\n    idea_description: i.description || i.desc || '',\n    idea_reason: i.reason || '',\n    idea_category: i.category || '',\n    idea_query: i.query || (i.name || ''),\n    \n    // ✅ Budget (from current item with fallbacks)\n    budget_min: Number.isFinite(+i.budget_min) ? +i.budget_min : waitData.budget_min || 20,\n    budget_max: Number.isFinite(+i.budget_max) ? +i.budget_max : waitData.budget_max || 50\n  }\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1856,
+        880
+      ],
+      "id": "b0ac18ca-f1b3-448b-9286-f958a1e02369",
+      "name": "Carry idea fields"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineByPosition",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        2080,
+        736
+      ],
+      "id": "6b3ce353-3601-4db0-bc97-518e520f04b4",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "path": "bday-form-5",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -208,
+        608
+      ],
+      "id": "43a88d56-aacc-407a-b5ad-f97a77839d7e",
+      "name": "Birthday Form",
+      "webhookId": "391eec33-4105-4936-b26f-4ae89a2ab6e3"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<title>Birthday Gift Preferences</title>\n<style>\n:root{--primary:#4f46e5;--primary-d:#4338ca;--muted:#666;--bg:#f7f7fb;--card:#fff;--border:#ddd}\n*{box-sizing:border-box}\nbody{font-family:system-ui,-apple-system,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif;margin:0;background:var(--bg);color:#111}\n.wrap{max-width:860px;margin:40px auto;padding:20px}\n.card{background:var(--card);border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.06);padding:26px 30px}\nh1{margin:0 0 6px}\n.muted{color:var(--muted);margin:0 0 20px}\n.badge{background:#eef0ff;padding:2px 8px;border-radius:12px;font-size:12px}\n.modes{display:flex;gap:12px;margin:12px 0 20px;flex-wrap:wrap}\n.mode{flex:1;min-width:160px;border:1.5px solid var(--border);border-radius:12px;padding:12px 14px;background:#fafafa;cursor:pointer;text-align:center;user-select:none}\n.mode.active{border-color:var(--primary);box-shadow:0 0 0 3px rgba(79,70,229,.12);background:#eef0ff}\nform{display:flex;flex-direction:column;gap:16px}\nlabel{display:block;font-weight:600;margin-bottom:6px}\ninput,textarea{width:100%;padding:10px 12px;border:1.3px solid var(--border);border-radius:10px;font:inherit;background:#fff}\n.row{display:flex;flex-wrap:wrap;gap:14px}\n.col{flex:1 1 calc(50% - 14px);min-width:260px}\n.section{display:none}\n.section.active{display:block}\n.group{border:1.3px solid var(--border);border-radius:12px;padding:12px}\n.options{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}\n.opt{display:flex;gap:8px;align-items:center}\n.chips{display:flex;flex-wrap:wrap;gap:8px}\n.chips .opt{border:1px solid var(--border);padding:8px 10px;border-radius:999px}\n.hint{font-size:12px;color:var(--muted);margin-top:6px}\n.req{color:#e11d48}\nbutton[type=submit]{margin-top:10px;background:var(--primary);color:#fff;border:none;padding:12px 16px;border-radius:12px;font-weight:700;cursor:pointer;font-size:15px}\nbutton[type=submit]:hover{background:var(--primary-d)}\n@media (max-width:560px){.col{min-width:100%}}\n</style>\n</head>\n<body>\n<div class=\"wrap\">\n  <div class=\"card\">\n    <h1>Birthday Gift Preferences</h1>\n    <p class=\"muted\">Pick how detailed you want this to be. <span class=\"badge\">One link, three options</span></p>\n\n    <div class=\"modes\" id=\"modeButtons\">\n      <div class=\"mode active\" data-mode=\"easy\">Easy<br><span class=\"muted\" style=\"font-size:12px\">~1 min</span></div>\n      <div class=\"mode\" data-mode=\"medium\">Medium<br><span class=\"muted\" style=\"font-size:12px\">~3 min</span></div>\n      <div class=\"mode\" data-mode=\"hard\">Detailed<br><span class=\"muted\" style=\"font-size:12px\">~5–6 min</span></div>\n    </div>\n\n    <form id=\"bdayForm\" method=\"post\" action=\"/webhook/bday-form-5\">\n\n\n      <input type=\"hidden\" id=\"mode\" name=\"mode\" value=\"easy\" />\n\n      <!-- Basics (always) -->\n      <div class=\"row\">\n        <div class=\"col\">\n          <label>Full Name <span class=\"req\">*</span></label>\n          <input name=\"full_name\" id=\"full_name\" required />\n        </div>\n        <div class=\"col\">\n          <label>Email <span class=\"req\">*</span></label>\n          <input name=\"email\" id=\"email\" type=\"email\" required />\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col\">\n          <label>WhatsApp Number <span class=\"req\">*</span></label>\n          <input name=\"whatsapp\" id=\"whatsapp\" placeholder=\"+1 415 555 0100\" required />\n        </div>\n        <div class=\"col\">\n          <label>Date of Birth <span class=\"req\">*</span></label>\n          <input name=\"dob\" id=\"dob\" type=\"date\" required />\n        </div>\n      </div>\n\n      <!-- EASY -->\n      <section id=\"sec-easy\" class=\"section active\">\n        <div class=\"group\">\n          <label>Top interests (choose up to 5) <span class=\"req\">*</span></label>\n          <div class=\"options\" data-max=\"5\" data-group=\"interests_easy\">\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_easy[]\" value=\"Reading\">Reading</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_easy[]\" value=\"Fitness\">Fitness</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_easy[]\" value=\"Gaming\">Gaming</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_easy[]\" value=\"Photography\">Photography</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_easy[]\" value=\"Cooking\">Cooking</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_easy[]\" value=\"Art & Craft\">Art & Craft</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_easy[]\" value=\"Outdoors\">Outdoors</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_easy[]\" value=\"Music\">Music</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_easy[]\" value=\"Travel\">Travel</label>\n          </div>\n          <div class=\"hint\">You can select up to 5.</div>\n        </div>\n        <div class=\"group\">\n          <label>Budget range (USD)</label>\n          <div class=\"row\">\n            <div class=\"col\"><input name=\"budget_min\" type=\"number\" min=\"1\" placeholder=\"Min\"></div>\n            <div class=\"col\"><input name=\"budget_max\" type=\"number\" min=\"1\" placeholder=\"Max\"></div>\n          </div>\n        </div>\n      </section>\n\n      <!-- MEDIUM = EASY + 2 QUESTIONS (brands, colors) -->\n      <section id=\"sec-medium\" class=\"section\">\n        <!-- carry Easy content conceptually; but only show the two added groups to keep page short -->\n        <div class=\"group\">\n          <label>Top interests (choose up to 5) <span class=\"req\">*</span></label>\n          <div class=\"options\" data-max=\"5\" data-group=\"interests_medium\">\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_medium[]\" value=\"Reading\">Reading</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_medium[]\" value=\"Fitness\">Fitness</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_medium[]\" value=\"Gaming\">Gaming</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_medium[]\" value=\"Photography\">Photography</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_medium[]\" value=\"Cooking\">Cooking</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_medium[]\" value=\"Art & Craft\">Art & Craft</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_medium[]\" value=\"Outdoors\">Outdoors</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_medium[]\" value=\"Music\">Music</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_medium[]\" value=\"Travel\">Travel</label>\n          </div>\n          <div class=\"hint\">Up to 5.</div>\n        </div>\n\n        <div class=\"group\">\n          <label>Favorite brands or stores (multiple)</label>\n          <div class=\"chips\">\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_medium[]\" value=\"Nike\">Nike</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_medium[]\" value=\"Adidas\">Adidas</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_medium[]\" value=\"Apple\">Apple</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_medium[]\" value=\"Sephora\">Sephora</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_medium[]\" value=\"IKEA\">IKEA</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_medium[]\" value=\"Muji\">Muji</label>\n          </div>\n          <div class=\"hint\">Other: <input name=\"brands_medium_other\" style=\"margin-left:6px;width:auto;padding:6px 10px;border-radius:8px;border:1px solid var(--border)\"></div>\n        </div>\n\n        <div class=\"group\">\n          <label>Preferred colors/styles (multiple)</label>\n          <div class=\"chips\">\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_medium[]\" value=\"Black\">Black</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_medium[]\" value=\"White\">White</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_medium[]\" value=\"Pastel\">Pastel</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_medium[]\" value=\"Minimalist\">Minimalist</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_medium[]\" value=\"Boho\">Boho</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_medium[]\" value=\"Luxury\">Luxury</label>\n          </div>\n        </div>\n\n        <div class=\"group\">\n          <label>Budget range (USD)</label>\n          <div class=\"row\">\n            <div class=\"col\"><input name=\"budget_min\" type=\"number\" min=\"1\" placeholder=\"Min\"></div>\n            <div class=\"col\"><input name=\"budget_max\" type=\"number\" min=\"1\" placeholder=\"Max\"></div>\n          </div>\n        </div>\n      </section>\n\n      <!-- HARD = MEDIUM + (gift types, activities, avoid) -->\n      <section id=\"sec-hard\" class=\"section\">\n        <!-- interests -->\n        <div class=\"group\">\n          <label>Top interests (choose up to 5) <span class=\"req\">*</span></label>\n          <div class=\"options\" data-max=\"5\" data-group=\"interests_hard\">\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_hard[]\" value=\"Reading\">Reading</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_hard[]\" value=\"Fitness\">Fitness</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_hard[]\" value=\"Gaming\">Gaming</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_hard[]\" value=\"Photography\">Photography</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_hard[]\" value=\"Cooking\">Cooking</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_hard[]\" value=\"Art & Craft\">Art & Craft</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_hard[]\" value=\"Outdoors\">Outdoors</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_hard[]\" value=\"Music\">Music</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"interests_hard[]\" value=\"Travel\">Travel</label>\n          </div>\n        </div>\n\n        <!-- NEW #1 -->\n        <div class=\"group\">\n          <label>Types of gifts you usually enjoy (multiple)</label>\n          <div class=\"options\">\n            <label class=\"opt\"><input type=\"checkbox\" name=\"gift_types_hard[]\" value=\"Books\">Books</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"gift_types_hard[]\" value=\"Perfume\">Perfume</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"gift_types_hard[]\" value=\"Tech Gadgets\">Tech Gadgets</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"gift_types_hard[]\" value=\"Home Decor\">Home Decor</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"gift_types_hard[]\" value=\"Jewelry / Watches\">Jewelry / Watches</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"gift_types_hard[]\" value=\"Experiences\">Experiences</label>\n          </div>\n        </div>\n\n        <!-- Brands (carry from Medium) -->\n        <div class=\"group\">\n          <label>Favorite brands or stores (multiple)</label>\n          <div class=\"chips\">\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_hard[]\" value=\"Adidas\">Adidas</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_hard[]\" value=\"Levi's\">Levi's</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_hard[]\" value=\"Apple\">Apple</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_hard[]\" value=\"Louis Vuitton\">Louis Vuitton</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_hard[]\" value=\"Target\">Target</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"brands_hard[]\" value=\"Macy's\">Macy's</label>\n          </div>\n          <div class=\"hint\">Other: <input name=\"brands_hard_other\" style=\"margin-left:6px;width:auto;padding:6px 10px;border-radius:8px;border:1px solid var(--border)\"></div>\n        </div>\n\n        <!-- Colors (carry from Medium) -->\n        <div class=\"group\">\n          <label>Colors/themes you like (multiple)</label>\n          <div class=\"chips\">\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_hard[]\" value=\"Yellow\">Yellow</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_hard[]\" value=\"Black\">Black</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_hard[]\" value=\"Boho / Natural\">Boho / Natural</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_hard[]\" value=\"Elegant / Luxury\">Elegant / Luxury</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_hard[]\" value=\"Minimalist\">Minimalist</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"colors_hard[]\" value=\"Pastel\">Pastel</label>\n          </div>\n        </div>\n\n        <!-- NEW #2 -->\n        <div class=\"group\">\n          <label>Activities you enjoy (multiple)</label>\n          <div class=\"options\">\n            <label class=\"opt\"><input type=\"checkbox\" name=\"activities_hard[]\" value=\"Photography\">Photography</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"activities_hard[]\" value=\"Soccer\">Soccer</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"activities_hard[]\" value=\"Cycling\">Cycling</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"activities_hard[]\" value=\"Yoga\">Yoga</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"activities_hard[]\" value=\"Cooking/Baking\">Cooking/Baking</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"activities_hard[]\" value=\"Painting/Drawing\">Painting/Drawing</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"activities_hard[]\" value=\"Puzzles/Board Games\">Puzzles/Board Games</label>\n            <label class=\"opt\"><input type=\"checkbox\" name=\"activities_hard[]\" value=\"Travel/Outdoors\">Travel/Outdoors</label>\n          </div>\n        </div>\n\n        <!-- NEW #3 -->\n        <div class=\"group\">\n          <label>Anything to avoid (allergies, dislikes)</label>\n          <input name=\"avoid_hard\" placeholder=\"e.g., nuts, strong scents\" />\n        </div>\n\n        <div class=\"group\">\n          <label>Budget range (USD)</label>\n          <div class=\"row\">\n            <div class=\"col\"><input name=\"budget_min\" type=\"number\" min=\"1\" placeholder=\"Min\"></div>\n            <div class=\"col\"><input name=\"budget_max\" type=\"number\" min=\"1\" placeholder=\"Max\"></div>\n          </div>\n        </div>\n      </section>\n\n      <button type=\"submit\">Submit</button>\n    </form>\n  </div>\n</div>\n\n<script>\nconst modeInput = document.getElementById('mode');\nconst modes = document.querySelectorAll('.mode');\nconst form = document.getElementById('bdayForm');\nconst sections = {\n  easy: document.getElementById('sec-easy'),\n  medium: document.getElementById('sec-medium'),\n  hard: document.getElementById('sec-hard'),\n};\n\nfunction setSectionEnabled(el, enabled){ el.querySelectorAll('input,select,textarea').forEach(inp=>inp.disabled=!enabled); }\nfunction switchMode(mode){\n  modeInput.value = mode;\n  Object.entries(sections).forEach(([k,el])=>{\n    const active = (k===mode);\n    el.classList.toggle('active', active);\n    setSectionEnabled(el, active);\n  });\n  modes.forEach(m=>m.classList.remove('active'));\n  document.querySelector(`.mode[data-mode=\"${mode}\"]`).classList.add('active');\n}\nmodes.forEach(m => m.addEventListener('click', () => switchMode(m.dataset.mode)));\nObject.entries(sections).forEach(([k,el])=>setSectionEnabled(el, k==='easy'));\n\n// limit selections to data-max where present\ndocument.querySelectorAll('.options[data-max]').forEach(group=>{\n  const max = parseInt(group.dataset.max,10);\n  group.addEventListener('change', ()=>{\n    const boxes=[...group.querySelectorAll('input[type=\"checkbox\"]')];\n    const checked=boxes.filter(b=>b.checked);\n    if(checked.length>max){ checked.pop().checked=false; alert(`Please select up to ${max}.`); }\n  });\n});\n\n// simple required group check\nform.addEventListener('submit', (e)=>{\n  const mode = modeInput.value;\n  const requiredSelector = mode==='easy' ? '#sec-easy [name=\"interests_easy[]\"]'\n                         : mode==='medium' ? '#sec-medium [name=\"interests_medium[]\"]'\n                         : '#sec-hard [name=\"interests_hard[]\"]';\n  if(![...document.querySelectorAll(requiredSelector)].some(b=>b.checked)){\n    e.preventDefault(); alert('Please choose at least one interest.'); return;\n  }\n});\n</script>\n</body>\n</html>",
+        "options": {
+          "responseCode": 200,
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset=utf-8"
+              }
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        272,
+        736
+      ],
+      "id": "7ef9b29b-9b72-43fd-b198-5d6aa4bf54a5",
+      "name": "Respond HTML"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "<!doctype html><html><body style=\"font-family:system-ui\">\n<h2>Thanks! 🎉</h2>\n<p>Your birthday preferences were submitted successfully.</p>\n</body></html>\n",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset=utf-8"
+              }
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        272,
+        416
+      ],
+      "id": "759ea7f1-ed42-4c0e-8dc6-ff39a16184f6",
+      "name": "Respond thank you"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "bday-form-5",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        512
+      ],
+      "id": "d445e1ff-b45a-47c0-a318-50aa8bf888a7",
+      "name": "Webhook",
+      "webhookId": "eb410070-26f0-4309-a5cb-46d1d4024436"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Helper accessors\nconst body = $json.body || $json || {};\nconst pick = (k, def = '') => (body[k] ?? $json[k] ?? def);\n\n// Turn any incoming value into a clean array:\n// - already an array -> filtered\n// - comma-separated string -> split\n// - single value -> [value]\n// - null/undefined -> []\nconst arr = (k) => {\n  let v = body[k] ?? $json[k];\n  if (v == null) return [];\n  if (Array.isArray(v)) return v.filter(Boolean);\n  if (typeof v === 'string') {\n    const s = v.trim();\n    if (!s) return [];\n    if (s.includes(',')) {\n      return s.split(',').map(x => x.trim()).filter(Boolean);\n    }\n    return [s];\n  }\n  return [];\n};\n\n// Mode (easy / medium / detailed(hard))\nconst mode = (pick('mode', 'easy') || '').toLowerCase();\n\n// Basic identity fields (try multiple keys to be resilient)\nconst name = pick('full_name') || pick('Full Name');\nconst email = pick('email') || pick('Email');\nconst whatsapp = pick('whatsapp') || pick('WhatsApp') || pick('WhatsApp Number') || pick('phone');\n\n// Date of birth (accepts yyyy-mm-dd or mm/dd/yyyy etc.)\nconst dobRaw = pick('dob') || pick('Date of Birth');\nconst dob = dobRaw ? new Date(dobRaw) : null;\nconst dobIso = dob && !isNaN(dob.getTime()) ? dob.toISOString().slice(0, 10) : '';\n\n// Compute next birthday (UTC) in YYYY-MM-DD for calendar creation\nfunction nextBirthdayUTC(d) {\n  if (!d || isNaN(d.getTime())) return '';\n  const now = new Date();\n  const todayUTC = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));\n  let next = new Date(Date.UTC(todayUTC.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));\n  if (next < todayUTC) next.setUTCFullYear(next.getUTCFullYear() + 1);\n  return next.toISOString().slice(0, 10);\n}\nconst dobNext = nextBirthdayUTC(dob);\n\n// Budget\nconst budgetMin = Number(pick('budget_min', '0')) || 0;\nconst budgetMax = Number(pick('budget_max', '0')) || 0;\n\n// Interests by mode\nconst interests =\n  mode === 'easy'   ? arr('interests_easy[]') :\n  mode === 'medium' ? arr('interests_medium[]') :\n                      arr('interests_hard[]');\n\n// Gift types (support either a shared field or per-mode fields)\nconst giftTypes = [\n  ...arr('gift_types[]'),\n  ...arr('gift_types_medium[]'),\n  ...arr('gift_types_hard[]'),\n].filter(Boolean);\nconst giftTypesUnique = [...new Set(giftTypes)];\n\n// Brands & colors vary by mode (medium vs detailed)\nconst brands = mode === 'medium' ? arr('brands_medium[]') : arr('brands_hard[]');\nconst colors = mode === 'medium' ? arr('colors_medium[]') : arr('colors_hard[]');\n\n// “Avoid” notes (only on detailed form typically)\nconst avoid = pick('avoid') || pick('avoid_hard') || '';\n\n// Build normalized payload (flat fields for easy use downstream)\nconst out = {\n  mode,\n  recipient_name: name || '',\n  recipient_email: email || '',\n  recipient_whatsapp: whatsapp || '',\n\n  dob_raw: dobRaw || '',\n  dob_iso: dobIso,          // YYYY-MM-DD of the original DOB\n  dob_next: dobNext,        // YYYY-MM-DD for the next birthday (this/next year, UTC)\n\n  budget_min: budgetMin,\n  budget_max: budgetMax,\n\n  interests,\n  gift_types: giftTypesUnique,\n  brands,\n  colors,\n  avoid,\n\n  // CSV helpers for emails/sheets\n  interests_csv: interests.join(', '),\n  gift_types_csv: giftTypesUnique.join(', '),\n  brands_csv: brands.join(', '),\n  colors_csv: colors.join(', '),\n\n  // A compact blob if you need to pass around a single string\n  profile_json: JSON.stringify({\n    mode,\n    name,\n    email,\n    whatsapp,\n    dob: dobIso,\n    nextBirthday: dobNext,\n    budget: { min: budgetMin, max: budgetMax },\n    interests,\n    giftTypes: giftTypesUnique,\n    brands,\n    colors,\n    avoid\n  })\n};\n\n// Emit one item\nreturn [{ json: out }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        528,
+        592
+      ],
+      "id": "51615181-f513-4179-8fd2-72968d86cfa1",
+      "name": "Normalize data"
+    },
+    {
+      "parameters": {
+        "calendar": {
+          "__rl": true,
+          "value": "YOUR_CALENDAR_ID@group.calendar.google.com",
+          "mode": "list",
+          "cachedResultName": "Bday AI"
+        },
+        "start": "={{$json.dob_next}}\n",
+        "end": "={{ new Date(new Date($json.dob_next).getTime() + 86400000).toISOString().slice(0,10) }}\n",
+        "additionalFields": {
+          "allday": "yes",
+          "rrule": "FREQ=YEARLY",
+          "summary": "={{$json.recipient_name}}'s Birthday 🎉"
+        }
+      },
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1.3,
+      "position": [
+        784,
+        384
+      ],
+      "id": "e110a2e7-4139-49c1-b966-af28cfaaac8a",
+      "name": "Create an event1",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "eQaYSqeWhnvWDpiv",
+          "name": "Google Calendar ACE"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Input: the normalized form payload at $json\n// Output: { personaText, recipientName, styleHints }\n\nconst f = $json || {};\n\nconst recipientName   = $input.first().json.recipient_name || f.name || \"there\";\nconst relationship    = f.relationship || f[\"Relationship (who is this person to you)\"] || \"\";\nconst age             = f.age || f[\"Age\"] || \"\";\nconst pronouns        = f.pronouns || f[\"Pronouns\"] || \"\";\nconst likes           = f.likes || f[\"Likes / Interests\"] || \"\";\nconst dislikes        = f.dislikes || f[\"Dislikes\"] || \"\";\nconst favorites       = f.favorites || f[\"Favorites (color, teams, animals, etc.)\"] || \"\";\nconst hobbies         = f.hobbies || f[\"Hobbies\"] || \"\";\nconst vibe            = f.vibe || f[\"Vibe for the card (cute, elegant, funny, minimal, etc.)\"] || \"joyful, celebratory\";\nconst theme           = f.theme || f[\"Theme ideas (pandas, space, soccer, etc.)\"] || \"\";\nconst palette         = f.palette || f[\"Color palette\"] || \"\";\nconst messageTone     = f.message_tone || f[\"Message tone\"] || \"warm and cheerful\";\n\n// Compose a single persona block\nconst personaText = [\n  `Recipient: ${recipientName}`,\n  relationship && `Relationship: ${relationship}`,\n  age && `Age: ${age}`,\n  pronouns && `Pronouns: ${pronouns}`,\n  likes && `Likes: ${likes}`,\n  dislikes && `Dislikes: ${dislikes}`,\n  favorites && `Favorites: ${favorites}`,\n  hobbies && `Hobbies: ${hobbies}`,\n  theme && `Preferred theme: ${theme}`,\n  palette && `Color palette: ${palette}`,\n  `Card vibe: ${vibe}`,\n  `Message tone: ${messageTone}`\n].filter(Boolean).join(\"\\n\");\n\nconst styleHints = { vibe, theme, palette, messageTone };\n\nreturn [{ json: { personaText, recipientName, styleHints } }];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        784,
+        976
+      ],
+      "id": "c693e34c-04a7-480c-8e9e-9c52cffa12fd",
+      "name": "Build Persona"
+    },
+    {
+      "parameters": {
+        "amount": 10
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1744,
+        1200
+      ],
+      "id": "471fbbfd-2673-4b9d-a73b-18f4ce8ca968",
+      "name": "Wait",
+      "webhookId": "8efc3917-7c1d-4a7c-acdc-d3b1ae2f0e2b"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Prepare Prompt for Birthday Image Generation\nconst personaData = $json;\n\n// Get recipient information\nconst recipientName = personaData.recipientName || \"Friend\";\nconst recipientFirst = personaData.recipientFirst || recipientName.split(\" \")[0] || \"Friend\";\n\n// Calculate age from date of birth\nlet age = null;\nconst dobRaw = personaData.dob_raw || personaData.dob || personaData.dateOfBirth;\n\nconsole.log(\"Date of birth (dob_raw):\", dobRaw);\n\nif (dobRaw) {\n  try {\n    const dob = new Date(dobRaw);\n    const today = new Date();\n    \n    age = today.getFullYear() - dob.getFullYear();\n    const monthDiff = today.getMonth() - dob.getMonth();\n    \n    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < dob.getDate())) {\n      age--;\n    }\n    \n    console.log(`✅ Calculated age for ${recipientFirst}: ${age} years old`);\n  } catch (error) {\n    console.log(\"❌ Error calculating age:\", error.message);\n  }\n}\n\n// Build the image generation prompt with MORE DYNAMIC elements\nconst prompt = `Create a vibrant, high-energy birthday celebration photograph with dynamic composition.\n\nSCENE COMPOSITION:\n- Center: A spectacular multi-tiered birthday cake${age ? ` with lit candles showing number \"${age}\"` : ' with lit candles'}\n- Foreground: Flying confetti mid-air, balloons floating upward\n- Background: Soft bokeh lights, party decorations, string lights\n- Action: Capture the moment confetti is being thrown, creating motion and energy\n- Setting: Warm, cozy party atmosphere with depth of field\n\nCOLOR & LIGHTING:\n- Palette: ${personaData.palette || \"Rich jewel tones - deep blues, vibrant reds, golden yellows\"}\n- Lighting: Warm candlelight from cake, soft ambient party lights, golden hour glow\n- Bokeh: Beautiful circular bokeh from string lights in background\n\nTEXT OVERLAY:\n- Large,elegant script text: \"Happy Birthday!\" at the top\n- Metallic gold or white text with dramatic shadow\n- Professional typography with decorative flourishes\n\nSTYLE & MOOD:\n- Vibe: ${personaData.vibe || \"Joyful, celebratory, energetic\"}\n- Theme: ${personaData.theme || \"Festive luxury celebration\"}\n- Quality: Professional event photography, magazine-worthy, cinematic\n- Depth: Strong depth of field with beautiful background blur\n- Motion: Suggest movement with flying confetti, floating balloons\n\nTECHNICAL:\n- Camera angle: Slightly low angle looking up at cake, heroic composition\n- Focus: Sharp focus on cake, beautiful bokeh in background\n- Lighting: Three-point lighting, warm fill light, dramatic rim light on confetti\n\nCreate a photograph that captures the magical, joyful moment of a birthday celebration!`;\n\nreturn {\n  prompt,\n  recipientName,\n  recipientFirst,\n  age\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1024,
+        1104
+      ],
+      "id": "3b4b4128-5566-45d3-af9c-81cc56bf522e",
+      "name": "Prepare Prompt"
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===============================\n// 1. GET DATA FROM INPUTS\n// ===============================\n\nconst allItems = $input.all();\nconst firstItem = allItems[0] || { json: {}, binary: {} };\nconst secondItem = allItems[1] || { json: {}, binary: {} };\n\n// Merge JSON data from both items\nconst merged = {\n  ...firstItem.json,\n  ...secondItem.json\n};\n\nconsole.log(\"=== INPUT DATA DEBUG ===\");\nconsole.log(\"Number of input items:\", allItems.length);\nconsole.log(\"First item keys:\", Object.keys(firstItem.json));\nconsole.log(\"Second item keys:\", Object.keys(secondItem.json));\nconsole.log(\"Merged keys:\", Object.keys(merged));\nconsole.log(\"=======================\");\n\n// Also try to get from specific nodes as fallback\nlet normData = {};\nlet personaData = {};\nlet webhookData = {};\n\ntry {\n  const normNode = $(\"Normalize data\");\n  if (normNode && normNode.json) normData = normNode.json;\n} catch (e) {}\n\ntry {\n  const personaNode = $(\"Build Persona\");\n  if (personaNode && personaNode.json) personaData = personaNode.json;\n} catch (e) {}\n\ntry {\n  const webhookNode = $(\"Webhook\");\n  if (webhookNode && webhookNode.json) webhookData = webhookNode.json;\n} catch (e) {}\n\n\n// ===============================\n// 2. HELPERS: EMAIL + NAME\n// ===============================\n\n// Helper: get recipient email from any available source\nfunction getEmail() {\n  const candidates = [\n    // From merged input data\n    merged.recipient_email,\n    merged.email,\n    merged.Email,\n    merged[\"Email Address\"],\n    \n    // From individual input items\n    firstItem.json.recipient_email,\n    firstItem.json.email,\n    firstItem.json.Email,\n    secondItem.json.recipient_email,\n    secondItem.json.email,\n    secondItem.json.Email,\n    \n    // From specific nodes (fallback)\n    normData.recipient_email,\n    normData[\"Email Address\"],\n    normData.email,\n    \n    personaData.recipient_email,\n    personaData.email,\n    \n    webhookData.recipient_email,\n    webhookData[\"Email Address\"],\n    webhookData.email,\n  ];\n\n  for (const c of candidates) {\n    if (c && String(c).trim()) {\n      console.log(\"✅ Email found:\", String(c).trim());\n      return String(c).trim();\n    }\n  }\n  \n  console.error(\"❌ No email found in any source\");\n  return \"\";\n}\n\n// Helper: format a raw name nicely\nfunction formatName(rawName) {\n  const cleaned = String(rawName || \"\").trim().replace(/\\s+/g, \" \");\n  if (!cleaned) return { full: \"Friend\", first: \"Friend\" };\n\n  const titled = cleaned\n    .toLowerCase()\n    .split(\" \")\n    .map(w => (w ? w[0].toUpperCase() + w.slice(1) : w))\n    .join(\" \");\n\n  const first = titled.split(\" \")[0];\n  return { full: titled, first };\n}\n\n// Helper: get name from multiple sources\nfunction getName() {\n  const candidates = [\n    // From merged data\n    merged.recipientName,\n    merged.recipient_name,\n    merged.recipientFirst,\n    merged[\"Full Name\"],\n    merged.fullName,\n    merged.name,\n    \n    // From input items\n    firstItem.json.recipientName,\n    firstItem.json.recipient_name,\n    secondItem.json.recipientName,\n    secondItem.json.recipient_name,\n    \n    // From specific nodes\n    personaData.recipientName,\n    personaData.recipient_name,\n    \n    normData.recipient_name,\n    normData.recipientName,\n    normData[\"Full Name\"],\n    \n    webhookData.recipient_name,\n    webhookData[\"Full Name\"],\n  ];\n\n  for (const c of candidates) {\n    if (c && String(c).trim()) {\n      console.log(\"✅ Name found:\", String(c).trim());\n      return formatName(String(c).trim());\n    }\n  }\n\n  console.log(\"⚠️ No name found - using 'Friend'\");\n  return { full: \"Friend\", first: \"Friend\" };\n}\n\n\n// ===============================\n// 3. EMAIL + NAME\n// ===============================\nconst email = getEmail();\nconst nameObj = getName();\nconst recipientName  = nameObj.full;\nconst recipientFirst = nameObj.first;\n\nif (!email) {\n  throw new Error(\n    \"recipient_email is missing even after checking ALL sources. \" +\n    \"Make sure Normalize data / Carry contact info / Webhook are passing the email field.\"\n  );\n}\n\n\n// ===============================\n// 4. SONG URL + LYRICS\n// ===============================\n\nlet songUrl = \n  merged.songUrl ||\n  merged.song_url ||\n  merged.audioUrl ||\n  firstItem.json.songUrl ||\n  secondItem.json.songUrl ||\n  null;\n\nlet lyrics = \n  merged.songLyrics ||\n  merged.lyrics ||\n  firstItem.json.songLyrics ||\n  firstItem.json.lyrics ||\n  secondItem.json.songLyrics ||\n  secondItem.json.lyrics ||\n  \"\";\n\n// Fallback: try Generate Lyrics node directly\nif (!lyrics) {\n  try {\n    const lyricsNode = $(\"Generate Lyrics\");\n    if (lyricsNode && lyricsNode.json) {\n      lyrics = \n        lyricsNode.json.message?.content ||\n        lyricsNode.json.content ||\n        \"\";\n    }\n  } catch (e) {}\n}\n\nconsole.log(\"=== SONG DATA DEBUG ===\");\nconsole.log(\"Song URL:\", songUrl || \"none\");\nconsole.log(\"Lyrics length:\", lyrics ? lyrics.length : 0);\nconsole.log(\"Lyrics preview:\", lyrics ? lyrics.substring(0, 50) + \"...\" : \"none\");\nconsole.log(\"=====================\");\n\n\n// ===============================\n// 5. IMAGE / VIDEO + AUDIO BINARIES\n// ===============================\n\n// ---- MEDIA (image *or* video) for inline display ----\nlet mediaBase64   = null;\nlet mediaMimeType = null;\nlet mediaIsVideo  = false;\n\n// Scan all incoming items for a media binary\nfor (const item of allItems) {\n  if (!item.binary) continue;\n  for (const key of Object.keys(item.binary)) {\n    const b = item.binary[key];\n    if (!b || !b.data || !b.mimeType) continue;\n\n    if (b.mimeType.startsWith(\"image/\")) {\n      // Found an inline image\n      mediaBase64   = b.data;\n      mediaMimeType = b.mimeType;\n      mediaIsVideo  = false;\n      console.log(\"✅ Inline IMAGE found with mime:\", mediaMimeType);\n      break;\n    }\n\n    if (b.mimeType.startsWith(\"video/\")) {\n      // Found an inline video (your Gemini MP4 \"gif\")\n      mediaBase64   = b.data;\n      mediaMimeType = b.mimeType;\n      mediaIsVideo  = true;\n      console.log(\"✅ Inline VIDEO found with mime:\", mediaMimeType);\n      break;\n    }\n  }\n  if (mediaBase64) break;\n}\n\nif (!mediaBase64) {\n  console.log(\"⚠️ No inline media found; will rely on attached card/video.\");\n}\n\n// ---- Audio (MP3 attachment) ----\nlet audioBinary = {};\nlet hasAudio = false;\n\nfor (const item of allItems) {\n  if (!item.binary) continue;\n  for (const key of Object.keys(item.binary)) {\n    const b = item.binary[key];\n    if (b && b.data && b.mimeType && b.mimeType.includes(\"audio\")) {\n      audioBinary[key] = b;\n      hasAudio = true;\n      console.log(`✅ Audio binary found with key: ${key}, mime: ${b.mimeType}`);\n      break;\n    }\n  }\n  if (hasAudio) break;\n}\n\nconsole.log(\"Has audio binary?\", hasAudio);\n\n\n// ===============================\n// 6. BUILD HTML EMAIL\n// ===============================\nconst subject = `🎂 Happy Birthday ${recipientFirst} - Your Personal AI Card & Song!`;\n\n// Build the media HTML (image or video)\nlet mediaHtml = \"\";\n\nif (mediaBase64 && mediaMimeType) {\n  if (mediaIsVideo) {\n    // Inline video (MP4). Some email clients may ignore this tag,\n    // but the file will still appear as an attachment with preview.\n    mediaHtml = `\n      <video \n        controls \n        ${songUrl ? \"\" : \"muted\"} \n        playsinline \n        style=\"max-width: 100%; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin: 20px 0;\">\n        <source src=\"data:${mediaMimeType};base64,${mediaBase64}\" type=\"${mediaMimeType}\">\n        Your email client does not support inline video playback.\n      </video>\n    `;\n  } else {\n    // Inline image (animated GIFs will also work here)\n    mediaHtml = `\n      <img src=\"data:${mediaMimeType};base64,${mediaBase64}\" \n           alt=\"Birthday Card for ${recipientFirst}\" \n           style=\"max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin: 20px 0;\">\n    `;\n  }\n} else {\n  mediaHtml = `<p>Your personalized birthday card / video is attached to this email!</p>`;\n}\n\nconst html = `\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <style>\n    body { \n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n      line-height: 1.6;\n      color: #333;\n      background: #f5f5f5;\n      margin: 0;\n      padding: 0;\n    }\n    .container { \n      max-width: 600px;\n      margin: 20px auto;\n      background: white;\n      border-radius: 20px;\n      overflow: hidden;\n      box-shadow: 0 10px 40px rgba(0,0,0,0.1);\n    }\n    .header {\n      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n      color: white;\n      padding: 40px 30px;\n      text-align: center;\n    }\n    .header h1 {\n      margin: 0;\n      font-size: 32px;\n      font-weight: 700;\n    }\n    .content {\n      padding: 30px;\n    }\n    .lyrics-section {\n      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);\n      color: white;\n      padding: 30px;\n      border-radius: 15px;\n      margin: 25px 0;\n      box-shadow: 0 8px 25px rgba(245, 87, 108, 0.3);\n    }\n    .lyrics-section h3 {\n      margin-top: 0;\n      font-size: 24px;\n      display: flex;\n      align-items: center;\n      gap: 10px;\n    }\n    .lyrics {\n      background: rgba(255,255,255,0.15);\n      padding: 20px;\n      border-radius: 10px;\n      backdrop-filter: blur(10px);\n      margin-top: 15px;\n    }\n    .lyrics pre {\n      white-space: pre-wrap;\n      font-family: 'Georgia', serif;\n      font-size: 15px;\n      line-height: 1.8;\n      margin: 0;\n      color: white;\n    }\n    .audio-player {\n      text-align: center;\n      margin: 20px 0;\n    }\n    .audio-player audio {\n      width: 100%;\n      max-width: 400px;\n      margin-bottom: 10px;\n    }\n    .audio-player a {\n      color: white;\n      text-decoration: underline;\n    }\n    .card-section {\n      text-align: center;\n      margin: 25px 0;\n    }\n    .card-section p {\n      color: #666;\n      font-style: italic;\n    }\n    .footer {\n      text-align: center;\n      padding: 20px 30px;\n      background: #f9f9f9;\n      color: #999;\n      font-size: 13px;\n      border-top: 1px solid #eee;\n    }\n    .emoji {\n      font-size: 28px;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <div class=\"header\">\n      <div class=\"emoji\">🎉</div>\n      <h1>Happy Birthday, ${recipientFirst}!</h1>\n    </div>\n    \n    <div class=\"content\">\n      <p style=\"font-size: 18px; color: #555;\">\n        We created something special just for you using AI! 🎁\n      </p>\n      \n      ${(lyrics || songUrl) ? `\n      <div class=\"lyrics-section\">\n        <h3>🎵 Your Personal Birthday Song!</h3>\n        \n        ${songUrl ? `\n        <div class=\"audio-player\">\n          <audio controls>\n            <source src=\"${songUrl}\" type=\"audio/mpeg\">\n            Your browser doesn't support audio playback.\n          </audio>\n          <br>\n          <a href=\"${songUrl}\">Download Your Birthday Song</a>\n        </div>\n        ` : ''}\n        \n        ${lyrics ? `\n        <div class=\"lyrics\">\n          <pre>${lyrics}</pre>\n        </div>\n        ` : ''}\n        \n        <p style=\"margin-bottom: 0; margin-top: 15px; font-size: 14px; opacity: 0.9;\">\n          💝 Written uniquely for you by AI, based on your personality and interests!\n        </p>\n      </div>\n      ` : ''}\n      \n      <div class=\"card-section\">\n        <h3 style=\"color: #667eea;\">🎬 Your Custom Birthday Video Card</h3>\n        ${mediaHtml}\n      </div>\n      \n      <p style=\"font-size: 16px; text-align: center; color: #764ba2; font-weight: 600; margin-top: 30px;\">\n        Have an absolutely amazing day! ✨\n      </p>\n    </div>\n    \n    <div class=\"footer\">\n      Sent with ❤️ by AI Birthday Assistant<br>\n      Powered by n8n automation\n    </div>\n  </div>\n</body>\n</html>\n`.trim();\n\n\n// ===============================\n// 7. RETURN JSON + BINARIES\n// ===============================\nreturn [{\n  json: {\n    recipient_email: email,\n    recipientName,\n    recipientFirst,\n    html,\n    subject,\n    songUrl,\n    hasLyrics: !!lyrics,\n    mediaIsVideo,\n    mediaMimeType\n  },\n  binary: {\n    // keep whatever binaries came in (image or mp4)\n    ...firstItem.binary,\n    ...secondItem.binary,\n    // plus the audio file we detected\n    ...audioBinary\n  }\n}];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2912,
+        1056
+      ],
+      "id": "5cd46567-47ee-459d-bdab-6de3c1d90fdd",
+      "name": "Prepare Email"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Take the image item\nconst imgItem = $input.all()[0] || { json: {}, binary: {} };\n\n// Get form data from Normalize data & Webhook\nconst norm = $node[\"Normalize data\"]?.json || {};\nconst webhook = $node[\"Webhook\"]?.json || {};\n\n// Find recipient email\nconst recipient_email =\n  imgItem.json.recipient_email ||\n  imgItem.json.email ||\n  norm.recipient_email ||\n  norm[\"Email Address\"] ||\n  norm.email ||\n  norm.Email ||\n  webhook.recipient_email ||\n  webhook[\"Email Address\"] ||\n  webhook.email ||\n  webhook.Email ||\n  \"\";\n\n// Find recipient name\nconst recipient_name_raw =\n  imgItem.json.recipientName ||\n  imgItem.json.recipient_name ||\n  norm.recipientName ||\n  norm.recipient_name ||\n  norm[\"Full Name\"] ||\n  webhook.recipientName ||\n  webhook.recipient_name ||\n  webhook[\"Full Name\"] ||\n  \"\";\n\n// Clean up name\nconst cleanedName = String(recipient_name_raw).trim().replace(/\\s+/g, \" \");\nconst recipient_name = cleanedName || \"Friend\";\n\nreturn [{\n  json: {\n    ...imgItem.json,\n    recipient_email,\n    recipientName: recipient_name,\n    recipient_name\n  },\n  binary: imgItem.binary // keep the image binary\n}];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2080,
+        1184
+      ],
+      "id": "4570b67b-a4f8-408c-9f01-83ccc6829cb1",
+      "name": "Carry contact info"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get persona data\nconst persona = $node[\"Build Persona\"].json;\nconst name = persona.recipientName || \"Friend\";\nconst interests = persona.styleHints || {};\n\n// Build the prompt\nconst prompt = `Create upbeat, fun birthday song lyrics for ${name}.\n\nStyle: ${interests.vibe || \"joyful and celebratory\"}\nTone: ${interests.messageTone || \"warm and cheerful\"}\nTheme: ${interests.theme || \"general celebration\"}\n\nGuidelines:\n- Keep it short: 2 verses and 1 chorus\n- Make it personal and mention ${name}'s name\n- Upbeat, singable, and fun\n- Family-friendly\n\nFormat:\n[Verse 1]\n...\n[Chorus]\n...\n[Verse 2]\n...\n\nGenerate ONLY the formatted lyrics.`;\n\nreturn [{\n  json: {\n    prompt,\n    recipientName: name,\n    model: \"gpt-4o-mini\"\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        976,
+        1296
+      ],
+      "id": "6cf082cc-bea0-4b27-930f-e914adf55fa0",
+      "name": "Song Prompt Agent"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "={{ $json.prompt }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1136,
+        1376
+      ],
+      "id": "59a6b3da-2a7c-4175-94af-f029c461ce44",
+      "name": "Generate Lyrics",
+      "credentials": {
+        "openAiApi": {
+          "id": "x7vrOQlC9u0ybR0y",
+          "name": "OpenAi account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "amount": 20
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1840,
+        1376
+      ],
+      "id": "7fb2a4b8-bf67-428d-bf3a-e1ebbd9e4e3f",
+      "name": "Wait for Song",
+      "webhookId": "6e71f9cd-98ad-4d41-a4ee-4baffc882e84"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Merge Song Data - combine lyrics, audio URL, and audio binary\n\n// Get lyrics from Generate Lyrics node\nlet lyrics = \"\";\ntry {\n  const lyricsNode = $(\"Generate Lyrics\");\n  if (lyricsNode && lyricsNode.first() && lyricsNode.first().json) {\n    const lyricsData = lyricsNode.first().json;\n    lyrics = \n      lyricsData.message?.content ||\n      lyricsData.content ||\n      lyricsData.lyrics ||\n      lyricsData.text ||\n      \"\";\n    \n    console.log(\"=== Merge Song Data - Lyrics Debug ===\");\n    console.log(\"Lyrics node data keys:\", Object.keys(lyricsData));\n    console.log(\"Lyrics extracted, length:\", lyrics.length);\n    console.log(\"Lyrics preview:\", lyrics.substring(0, 100));\n    console.log(\"====================================\");\n  }\n} catch (e) {\n  console.error(\"Error getting lyrics:\", e.message);\n}\n\n// Get audio URL from Extract Audio URL node\nlet songUrl = null;\ntry {\n  const extractUrlNode = $(\"Extract Audio URL\");\n  if (extractUrlNode && extractUrlNode.first() && extractUrlNode.first().json) {\n    songUrl = extractUrlNode.first().json.audioUrl || extractUrlNode.first().json.sourceAudioUrl;\n    console.log(\"Song URL found:\", songUrl);\n  }\n} catch (e) {\n  console.error(\"Error getting audio URL:\", e.message);\n}\n\n// Get audio binary from Download audio node\nlet audioBinary = {};\ntry {\n  const audioDownloadNode = $(\"Download audio\");\n  if (audioDownloadNode && audioDownloadNode.first() && audioDownloadNode.first().binary) {\n    audioBinary = audioDownloadNode.first().binary;\n    console.log(\"Audio binary found:\", Object.keys(audioBinary));\n  }\n} catch (e) {\n  console.error(\"Error getting audio binary:\", e.message);\n}\n\n// Get input data (from previous node in the chain)\nconst inputData = $input.first() ? $input.first().json : {};\n\nconsole.log(\"=== Merge Song Data Final Output ===\");\nconsole.log(\"Song URL:\", songUrl || \"none\");\nconsole.log(\"Lyrics length:\", lyrics.length);\nconsole.log(\"Has audio binary:\", Object.keys(audioBinary).length > 0);\nconsole.log(\"Input data keys:\", Object.keys(inputData));\nconsole.log(\"==================================\");\n\nreturn [{\n  json: {\n    ...inputData,\n    songUrl: songUrl,\n    songLyrics: lyrics,\n    lyrics: lyrics,\n    hasSong: !!songUrl,\n    hasLyrics: !!lyrics\n  },\n  binary: audioBinary\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2576,
+        1184
+      ],
+      "id": "02baf291-5096-4396-8e63-0fcb7225822f",
+      "name": "Merge Song Data"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.kie.ai/api/v1/generate",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpBearerAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_KIE_API_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1632,
+        1376
+      ],
+      "id": "ebb00889-bff9-4138-b2c3-59ffe9d48f0c",
+      "name": "Generate bday song",
+      "credentials": {
+        "httpBearerAuth": {
+          "id": "eI3DJQYBXWXR7gyU",
+          "name": "Bearer Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// === Get the generated lyrics from the previous node ===\nconst lyricsNode = $node[\"Generate Lyrics\"].json || {};\nconst lyrics =\n  lyricsNode.message?.content || // when OpenAI \"Message a model\" is used\n  lyricsNode.content ||\n  \"\"; // fallback\n\n// === Get recipient info from Build Persona / Normalize data ===\nconst personaNode = $node[\"Build Persona\"].json || {};\nconst normalized = $node[\"Normalize data\"].json || {};\n\nconst recipientName =\n  personaNode.recipientName ||\n  normalized.recipient_name ||\n  normalized[\"Full Name\"] ||\n  \"Friend\";\n\n// === Build the Suno API request payload ===\n// This must match what the /generate endpoint expects\nconst sunoRequest = {\n  // The **lyrics** we want the model to sing\n  prompt: lyrics,\n\n  // Style / vibe of the song\n  style: \"Pop, upbeat, birthday song, celebratory\",\n\n  // Song title (shows up in Suno UI)\n  title: `Birthday Song for ${recipientName}`,\n\n  // Make sure it's a **sung** song, not just instrumental\n  customMode: true,     // tells Suno to respect our prompt more strictly\n  instrumental: false,  // we want vocals, not just background music\n\n  // Model & voice\n  model: \"V4\",\n  vocalGender: \"f\",     // \"f\" or \"m\" etc.\n\n  // REQUIRED by API → this is why you got 422\n  callBackUrl: \"https://example.com/callback\",\n\n  // (Optional tunable parameters – safe defaults)\n  audioWeight: 0.65,\n  weirdnessConstraint: 0.65\n};\n\n// n8n expects an array of items with a json property\nreturn [\n  {\n    json: sunoRequest\n  }\n];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1440,
+        1376
+      ],
+      "id": "5f697615-07c9-4fcd-a1e4-f64deed19e04",
+      "name": "Prepare Suno Request"
+    },
+    {
+      "parameters": {
+        "chatId": "YOUR_TELEGRAM_CHAT_ID",
+        "text": "=🎉 Happy Birthday {{$json.recipient_name}}!   Check your email for a special surprise - we've created a personalized birthday card and song just for you! 🎂🎵",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1296,
+        912
+      ],
+      "id": "989e5e64-d3dd-4ae4-a570-9f1a2cff5b0a",
+      "name": "Send a text message",
+      "webhookId": "a7e44d2c-1581-4be3-81bd-0970b5c103cb",
+      "credentials": {
+        "telegramApi": {
+          "id": "d06lC4PMaQmwABPM",
+          "name": "Telegram account (Bday_AI_Gifts&song)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "=https://api.kie.ai/api/v1/generate/record-info?taskId={{ $json.data.taskId }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpBearerAuth",
+        "options": {
+          "response": {
+            "response": {}
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        2032,
+        1376
+      ],
+      "id": "46fbb967-0b7a-457b-a8c6-e0f4dbca145a",
+      "name": "Get song",
+      "credentials": {
+        "httpBearerAuth": {
+          "id": "eI3DJQYBXWXR7gyU",
+          "name": "Bearer Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.audioUrl }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file",
+              "outputPropertyName": "audio"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        2416,
+        1248
+      ],
+      "id": "18e30c95-d50e-497a-9998-5a6d3ebd52d9",
+      "name": "Download audio"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        2720,
+        1056
+      ],
+      "id": "a2cb0d16-0c06-4269-817b-fc242f030776",
+      "name": "Final merge"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extract Audio URL from Get song response - WITH DEBUGGING\nconst songData = $input.first().json;\n\n// Debug: Print the entire structure\nconsole.log(\"=== FULL SONG DATA STRUCTURE ===\");\nconsole.log(JSON.stringify(songData, null, 2));\nconsole.log(\"================================\");\n\n// Check what's at different paths\nconsole.log(\"songData.response:\", songData.response);\nconsole.log(\"songData.data:\", songData.data);\nconsole.log(\"songData.sunoData:\", songData.sunoData);\n\n// Try multiple possible paths\nlet audioUrl = null;\n\n// Path 1: response.sunoData[0].sourceAudioUrl\nif (songData.response?.sunoData?.[0]?.sourceAudioUrl) {\n  audioUrl = songData.response.sunoData[0].sourceAudioUrl;\n  console.log(\"Found at path 1: response.sunoData[0].sourceAudioUrl\");\n}\n// Path 2: response.sunoData[0].audioUrl\nelse if (songData.response?.sunoData?.[0]?.audioUrl) {\n  audioUrl = songData.response.sunoData[0].audioUrl;\n  console.log(\"Found at path 2: response.sunoData[0].audioUrl\");\n}\n// Path 3: data.response.sunoData[0].sourceAudioUrl\nelse if (songData.data?.response?.sunoData?.[0]?.sourceAudioUrl) {\n  audioUrl = songData.data.response.sunoData[0].sourceAudioUrl;\n  console.log(\"Found at path 3: data.response.sunoData[0].sourceAudioUrl\");\n}\n// Path 4: data.response.sunoData[0].audioUrl\nelse if (songData.data?.response?.sunoData?.[0]?.audioUrl) {\n  audioUrl = songData.data.response.sunoData[0].audioUrl;\n  console.log(\"Found at path 4: data.response.sunoData[0].audioUrl\");\n}\n// Path 5: Just at top level\nelse if (songData.audioUrl) {\n  audioUrl = songData.audioUrl;\n  console.log(\"Found at path 5: audioUrl\");\n}\nelse if (songData.sourceAudioUrl) {\n  audioUrl = songData.sourceAudioUrl;\n  console.log(\"Found at path 6: sourceAudioUrl\");\n}\n\nif (!audioUrl) {\n  console.error(\"❌ Could not find audio URL in any known path\");\n  console.log(\"Available keys:\", Object.keys(songData));\n  throw new Error(\"No audio URL found in song data. Check console logs for structure.\");\n}\n\nconsole.log(\"✅ Audio URL extracted:\", audioUrl);\n\nreturn [{\n  json: {\n    ...songData,\n    audioUrl: audioUrl\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2240,
+        1376
+      ],
+      "id": "1ef1baf9-7212-41f1-a50b-e3788ea9ea35",
+      "name": "Extract Audio URL"
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.recipient_email }}\n",
+        "subject": "=\nGift ideas for {{ $json.recipient_name }}\n\n",
+        "message": "={{ $json.emailHtml }}\n\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2896,
+        736
+      ],
+      "id": "92487505-49a0-469a-8365-89b3bc6d2a1d",
+      "name": "Email gift ideas",
+      "webhookId": "3d04ed89-545f-489d-9917-fa0441e5a0db",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "FsnTXL3Svh3hNbnR",
+          "name": "Gmail account ACE"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{$json.recipient_email}}",
+        "subject": "=🎂 Happy Birthday from AI — Custom Card for {{ $json.recipientName }} ",
+        "message": "={{$json.html || \"Here’s your personalized birthday card!\"}}",
+        "options": {
+          "attachmentsUi": {
+            "attachmentsBinary": [
+              {
+                "property": "audio"
+              },
+              {
+                "property": "gif"
+              }
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        3088,
+        1120
+      ],
+      "id": "82b571a7-69e2-4212-94da-67b07a101fb0",
+      "name": "Email bday image and song",
+      "webhookId": "c30d7ecf-c7a5-4f6d-a173-40e20cb3e2ad",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "FsnTXL3Svh3hNbnR",
+          "name": "Gmail account ACE"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "video",
+        "modelId": {
+          "__rl": true,
+          "value": "models/veo-3.1-fast-generate-preview",
+          "mode": "list",
+          "cachedResultName": "models/veo-3.1-fast-generate-preview"
+        },
+        "prompt": "={{ $json.prompt }}",
+        "options": {
+          "binaryPropertyOutput": "gif"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1,
+      "position": [
+        1296,
+        1152
+      ],
+      "id": "a48de9c8-02ab-40af-a8a1-f302588663d2",
+      "name": "Generate a video",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "bBdrQtUiWvXNBWwZ",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Append row in sheet": {
+      "main": [
+        []
+      ]
+    },
+    "Compute Times": {
+      "main": [
+        [
+          {
+            "node": "Wait birthday 8 am",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Parse budget",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait 2 weeks before": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait birthday 8 am": {
+      "main": [
+        [
+          {
+            "node": "Send a text message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model": {
+      "main": [
+        [
+          {
+            "node": "Split ideas into items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Collect products": {
+      "main": [
+        [
+          {
+            "node": "Email gift ideas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse budget": {
+      "main": [
+        [
+          {
+            "node": "Wait 2 weeks before",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split ideas into items": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Carry idea fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "pick best products": {
+      "main": [
+        [
+          {
+            "node": "Collect products",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge with idea data": {
+      "main": [
+        [
+          {
+            "node": "pick best products",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Carry idea fields": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Merge with idea data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Birthday Form": {
+      "main": [
+        [
+          {
+            "node": "Respond HTML",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Respond HTML": {
+      "main": [
+        []
+      ]
+    },
+    "Respond thank you": {
+      "main": [
+        []
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Respond thank you",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Normalize data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize data": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Compute Times",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Create an event1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Build Persona",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Persona": {
+      "main": [
+        [
+          {
+            "node": "Prepare Prompt",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Song Prompt Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "Carry contact info",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Prompt": {
+      "main": [
+        [
+          {
+            "node": "Generate a video",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Email": {
+      "main": [
+        [
+          {
+            "node": "Email bday image and song",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Carry contact info": {
+      "main": [
+        [
+          {
+            "node": "Final merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Song Prompt Agent": {
+      "main": [
+        [
+          {
+            "node": "Generate Lyrics",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Lyrics": {
+      "main": [
+        [
+          {
+            "node": "Prepare Suno Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait for Song": {
+      "main": [
+        [
+          {
+            "node": "Get song",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge Song Data": {
+      "main": [
+        [
+          {
+            "node": "Final merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Generate bday song": {
+      "main": [
+        [
+          {
+            "node": "Wait for Song",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Suno Request": {
+      "main": [
+        [
+          {
+            "node": "Generate bday song",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a text message": {
+      "main": [
+        []
+      ]
+    },
+    "Get song": {
+      "main": [
+        [
+          {
+            "node": "Extract Audio URL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download audio": {
+      "main": [
+        [
+          {
+            "node": "Merge Song Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Final merge": {
+      "main": [
+        [
+          {
+            "node": "Prepare Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Audio URL": {
+      "main": [
+        [
+          {
+            "node": "Download audio",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate a video": {
+      "main": [
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "saveExecutionProgress": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "versionId": "9443d837-fbfc-46a2-8b4d-4bab1b887b3f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "REMOVED"
+  },
+  "id": "G6QJFtawqBZ8OP6J",
+  "tags": []
+}
