@@ -138,7 +138,7 @@ ai-birthday-automation/
 
 1. Clone this repo
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ai-birthday-automation.git
+   git clone https://github.com/laharimini/ai-birthday-automation.git
    ```
 
 2. Open your n8n instance → **Workflows** → **Import from File**
